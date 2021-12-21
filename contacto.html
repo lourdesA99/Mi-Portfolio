@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Mi Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1 class="miNombre">
+                LOURDES ANTUÑA
+            </h1>
+        </div>
+        <nav class="navegador">
+            <ul>
+                <li><a href="index.html" target="_blank"> Home</li></a>
+                    <li><a href="about.html" target="_blank"> About</li></a>
+                        <li><a href="portfolio.html" target="_blank"> Portfolio</li></a>
+                            <li><a class="getInTouch" href="Contacto.html" target="_blank"> Get in touch</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="getInTouch1">
+            <h2>Get in touch</h2>
+            <p>Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon as possible.
+            </p>
+        </div>
+        <div class="flex-container">
+            <form action="#">
+
+                <legend>About you</legend>
+                <div class="name">
+                    <label for="name">Your name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="eg, Lourdes Antuña" required>
+                </div>
+
+                <br>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required placeholder="eg, hello@lourdesantuña.com">
+                </div>
+                <br>
+                <br>
+                <legend class="project">Project Details</legend>
+                <div class="textArea">
+                    <textarea name="coment" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <br>
+                <br>
+                <div class="submit">
+
+                    <input type="submit" value="Send">
+                </div>
+
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p> Creada por Lourdes Antuña </p>
+    </footer>
+</body>
+
+</html>
